@@ -3,7 +3,7 @@ import Joi from "joi";
 import Hapi from "@hapi/hapi";
 import {handleRouteError} from "../utils/error-handler";
 import {Shipment} from "../models/Shipment";
-import {ShipmentStatuses} from "../../../shared/shipment.model";
+import {ShipmentStatuses} from "../utils/types/shipment.model";
 
 export const postOfficeRoutes: Hapi.ServerRoute[] = [
     /**

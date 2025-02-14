@@ -1,6 +1,6 @@
 import { Shipment } from "../models/Shipment";
 import { PostOffice } from "../models/PostOffice";
-import { ShipmentTypes, ShipmentWeights, ShipmentStatuses } from "../../../shared/shipment.model"
+import { ShipmentTypes, ShipmentWeights, ShipmentStatuses } from "../utils/types/shipment.model"
 import Joi from "joi";
 import Hapi from "@hapi/hapi";
 import {handleRouteError} from "../utils/error-handler";

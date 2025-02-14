@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { ShipmentTypes, ShipmentStatuses, ShipmentWeights } from "../../../shared/shipment.model";
+import { ShipmentTypes, ShipmentStatuses, ShipmentWeights } from "../utils/types/shipment.model";
 
 const ShipmentSchema = new mongoose.Schema({
     shipmentNumber: { type: String, unique: true, required: true },
